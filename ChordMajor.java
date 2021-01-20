@@ -17,7 +17,7 @@ public class ChordMajor {
 
       double[] o = new double [a.length];
       for (int i = 0; i < a.length; i++ )
-        o[i] = a[i]*awt + b[i]*bwt + c[i]*cwt;
+        o[i] = a[i] * awt + b[i] * bwt + c[i] * cwt;
 
         // System.out.println(o[2]);
       return o;
@@ -31,9 +31,9 @@ public class ChordMajor {
       double hz = 440.0;
       int pitch =  Integer.parseInt(args[0]);
       double duration = Double.parseDouble(args[1]);
-      double onehz = hz*Math.pow(2.0, pitch/12.0);
-      double twohz = hz*Math.pow(2.0, (pitch+4)/12.0);
-      double threehz = hz*Math.pow(2.0, (pitch+7)/12.0);
+      double onehz = hz * Math.pow(2.0, pitch/12.0);
+      double twohz = hz * Math.pow(2.0, (pitch+4)/12.0);
+      double threehz = hz * Math.pow(2.0, (pitch+7)/12.0);
       System.out.println(onehz + " " + twohz + " " + threehz + " " );
 
       double[] one = tone(onehz, duration);
