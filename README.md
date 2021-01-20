@@ -15,10 +15,13 @@ This repo is to host some exercises that I though of coding while reading some c
 
 
 1. Chromatic440.java --- takes one command line argument duration and plays 12 notes (+1 from octave above) from Chromatic scale of ConcertA
+    e.g. java Chromatic440 0.25 ; java Chromatic440 1 ;
 
 2. ChordMajor.java  -- Takes two command line arguments. 
-  First integer : (0 for A major chord from ConcertA chromatic scale - starting 440hz, 1 for A# or Bb and so on).  
-  Second double duration : for how long to play chord
+  - 1. integer start note: (0 for A major chord from ConcertA chromatic scale - starting 440hz, 1 for A# or Bb and so on). Negative int valid to make it underflow some notes to lower chormatic scale below 440.0 hz
+  - 2. double duration : for how long to play chord
+  
+  e.g. java ChordMajor 0 4 (for A major for 4 seconds); java ChordMajor 1 2 (A# or B-flat ajor for 2 sec);  java ChordMajor -1 2 (G# major for 2 sec); 
   
  
 
