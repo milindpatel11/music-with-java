@@ -142,7 +142,7 @@ public class AllChords.java {
 
       StdAudio.play(toplay);
 
-      plotWave(toplay);
+      plotWave(toplay);   // comment this line if need to remove graph feature
 
       }
 
