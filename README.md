@@ -23,16 +23,6 @@ This repo is to host some exercises that I though of coding while reading some c
     
  Output gives names of notes in the chord, frequencies of these notes, plays the chord and then draws graph for 1/50th duration mentioned in argument.
  
- to disable graph - comment out 
+ to disable graph - comment out line 145  --- plotWave(toplay) ---
  
- 
-
-3. ChordMajor.java  -- Takes two command line arguments. 
-  - 1. integer start note: (0 for A major chord from ConcertA chromatic scale - starting 440hz, 1 for A# or Bb and so on). Negative int valid to make it underflow some notes to lower chormatic scale below 440.0 hz
-  - 2. double duration : for how long to play chord
-  
-  e.g. java ChordMajor 0 4 (for A major for 4 seconds); java ChordMajor 1 2 (A# or B-flat ajor for 2 sec);  java ChordMajor -1 2 (G# major for 2 sec); 
-  
- 
-
 
