@@ -1,4 +1,4 @@
-public class AllChords.java {
+public class AllChords {
 
   public static String getNoteName(int pitch) {
 
