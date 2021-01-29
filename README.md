@@ -18,7 +18,7 @@ This repo is to host some exercises that I though of coding while reading some c
 
 2. AllChords.java -- Three command line arguments 
     1. duartion in seconds (ideally between 0.5 and 4 sec)
-    2. Name of chord (in form A, A#, B, C, C#)
+    2. Name of chord (in form A, A# etc - Reference valid notes are A, A#, B, C, C#, D, D#, E, F, F#, G, G#) - Invalid notes will use "A"  by default.
     3. Type of chord (Major, Minor or Harmonic)
     
  Output gives names of notes in the chord, frequencies of these notes, plays the chord and then draws graph for 1/50th duration mentioned in argument.
