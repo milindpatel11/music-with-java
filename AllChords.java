@@ -15,7 +15,7 @@ public class AllChords {
 
   public static int getNoteNum(String note) {
 
-    String [] notes = { "A", "A#/Bb", "B", "C", "C#/Db", "D", "D#/Eb", "E", "F", "F#/Gb", "G", "G#/Ab"};
+    String [] notes = { "A", "A#", "B", "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#"};
 
     int result = 0;
     for (int i=0; i<notes.length; i++) {
